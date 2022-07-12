@@ -31,4 +31,32 @@ Replace the script tag in the html file with your new Lazerpay payment request b
 </script>
 ```
 
-Cheers!!!
+## Run locally
+
+```bash
+# clone the repo
+https://github.com/papamarfo/lazerpay-payment-request-button-demo.git
+
+# change directory
+cd lazerpay-payment-request-button-demo
+```
+
+Since these are all static assets you can serve them locally with a simple web server, e.g.
+
+PHP
+
+```bash
+php -S localhost:8000
+```
+
+Python 2
+
+```bash
+python -m SimpleHTTPServer 8000
+```
+
+Python 3
+
+```bash
+python -m http.server 8000
+```
